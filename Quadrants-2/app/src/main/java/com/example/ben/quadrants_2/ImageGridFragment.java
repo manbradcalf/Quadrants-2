@@ -40,15 +40,15 @@ public class ImageGridFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.image_grid_fragment, container, false);
 
         //Get a reference to the GridView and attach this adapter to it
-        GridView gridView = (GridView) rootView.findViewById(R.id.gridView);
-        gridView.setAdapter(mImageAdapter);
-
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v,
-                                    int position, long id) {
-                Toast.makeText(context,"" + position, Toast.LENGTH_LONG).show();
-            }
-        });
+//        GridView gridView = (GridView) rootView.findViewById(R.id.container);
+//        gridView.setAdapter(mImageAdapter);
+//
+//        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            public void onItemClick(AdapterView<?> parent, View v,
+//                                    int position, long id) {
+//                Toast.makeText(context,"" + position, Toast.LENGTH_LONG).show();
+//            }
+//        });
 
         // Inflate the layout for this fragment
         return rootView;
