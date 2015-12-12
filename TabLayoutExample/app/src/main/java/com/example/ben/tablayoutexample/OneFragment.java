@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v7.appcompat.*;
+import android.support.v7.widget.*;
 
 
 public class OneFragment extends Fragment{
